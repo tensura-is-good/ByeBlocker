@@ -13,7 +13,7 @@
         width: 100vw;
         height: 100vh;
         overflow: hidden;
-        background: radial-gradient(circle, rgb(0, 0, 0), rgb(1, 44, 42));
+        background: radial-gradient(circle, rgb(7, 6, 5), rgb(1, 44, 42));
       }
     
       .star {
@@ -21,7 +21,7 @@
         background: rgb(57, 255, 215);
         border-radius: 50%;
         transform: scale(0);
-        animation: sparkle 2s infinite, drift linear infinite;
+        animation: sparkle 99s infinite, drift linear infinite;
       }
     
       @keyframes sparkle {
@@ -48,7 +48,7 @@
       <div id="background">
         <!-- Generating stars -->
         <script>
-          const numStars = 300;
+          const numStars = 999999999;
           const background = document.getElementById('background');
     
           for (let i = 0; i < numStars; i++) {
@@ -88,7 +88,7 @@
           height: 250px;
           border: 2px solid #daf3f1;
           margin: 40px;
-          padding: 10px;
+          padding: 15px;
           box-sizing: border-box;
           transition: all 0.3s ease;
         }
@@ -129,7 +129,7 @@
     menu.remove();
   };
 
-  button.innerHTML = 'Launch My Dick 👅👅👅👅👅👅';
+  button.innerHTML = 'Launch Phosphorus';
   button.style.cssText = `
     font-family: Arial;
     font-size: 16px;
@@ -142,7 +142,7 @@
     cursor: pointer;
   `;
   button.onclick = function() {
-    var link = prompt("if you are major braxtyn or izzy get off this");
+    var link = prompt("Url? (make sure you include https://  ) ");
     var proxy = 'https://api.codetabs.com/v1/proxy?quest=';
     fetch(proxy + link)
       .then((response) => response.text())
@@ -197,14 +197,14 @@
     body {
       margin: 0;
       padding: 0;
-      background-color: #000; 
+      background-color: #7c0a02; 
     }
     .bottom-left {
       position: fixed;
       bottom: 0;
       left: 0;
       font-family: Arial, sans-serif;
-      font-size: 16px;
+      font-size: 20px;
       color: rgba(255, 255, 255, 0.2); 
       padding: 10px;
     }
